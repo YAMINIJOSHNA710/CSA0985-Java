@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+class add{
+int length,breadth,area;
+void display( )
+{
+System.out.println("program was executed successfully");
+}
+}
+class rectangle
+{
+public static void main(String[ ] args)
+{
+add r1=new add( );
+Scanner input=new Scanner(System.in);
+System.out.println("enter the length:");
+r1.length=input.nextInt( );
+System.out.println("enter the breadth:");
+r1.breadth=input.nextInt( );
+r1.area=r1.length*r1.breadth;
+System.out.println("area of rectangle:"+r1.area);
+r1.display( );
+}
+}
