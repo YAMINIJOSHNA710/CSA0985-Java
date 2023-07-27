@@ -1,0 +1,9 @@
+class string{
+public static void main(String [ ]args)
+{
+String name="yamini";
+String department="cse";
+String joinedString=name.concat(department);
+System.out.println(joinedString);
+}
+}
