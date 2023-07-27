@@ -1,0 +1,15 @@
+class woawr{
+int display( )
+{
+int a=10,b=20,sum;
+sum=a+b;
+return  sum;
+}
+public static void main(String [ ]args)
+{
+woawr s=new woawr( );
+int result;
+result=s.display( );
+System.out.println(result);
+}
+}
