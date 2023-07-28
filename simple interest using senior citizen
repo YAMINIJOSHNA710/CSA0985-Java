@@ -1,0 +1,49 @@
+using class and object method:
+import java.util.Scanner;
+class simpleinterest{
+public static void main(String args[]) 
+{
+float p, r, t, simpleinterest;
+Scanner in = new Scanner(System.in);
+System.out.print("Enter the Principal : ");
+p = in.nextFloat();
+System.out.print("Enter the Rate of interest : ");
+r = in.nextFloat();
+System.out.print("Enter the Time period : ");
+t = in.nextFloat();
+System.out.print("Simple Interest is: " +simpleinterest);
+}
+}
+
+
+
+
+using function:
+import java.util.Scanner;
+class interest
+{  
+    public int age,r;
+ void display(int r)
+ {
+     int p=200000,t=3;
+     int si;
+     si=p*t*r/100;
+     System.out.println(si);
+ }
+  public static void main(String[] args)
+  {
+   interest a1=new interest();
+   System.out.println("Enter the age:");
+   Scanner input=new Scanner(System.in);
+   a1.age=input.nextInt();
+   if(a1.age>=60)
+   {
+    a1.r=12;
+   }
+   else
+   {
+    a1.r=10;
+   }
+    a1.display(a1.r);
+  }
+}
